@@ -1,6 +1,7 @@
 package interpreter.expression;
 
-import interpreter.exceptions.*;
+import interpreter.exceptions.InterpreterException;
+import interpreter.exceptions.InterpreterRuntimeException;
 
 import java.util.HashMap;
 

@@ -1,7 +1,5 @@
 package interpreter.expression;
 
-import interpreter.exceptions.ArgumentNumberException;
-
 import java.util.ArrayList;
 import java.util.HashMap;
 

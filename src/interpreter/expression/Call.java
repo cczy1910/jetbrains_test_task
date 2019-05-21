@@ -1,7 +1,8 @@
 package interpreter.expression;
 
 
-import interpreter.exceptions.*;
+import interpreter.exceptions.ArgumentNumberException;
+import interpreter.exceptions.FunctionNotFoundException;
 
 import java.util.ArrayList;
 import java.util.HashMap;

@@ -1,11 +1,10 @@
 package interpreter;
 
-import interpreter.expression.binaryExpresions.*;
 import interpreter.exceptions.SyntaxException;
 import interpreter.expression.*;
+import interpreter.expression.binaryExpresions.*;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 
 class Parser {
     private String line;

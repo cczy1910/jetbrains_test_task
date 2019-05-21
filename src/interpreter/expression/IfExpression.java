@@ -1,7 +1,5 @@
 package interpreter.expression;
 
-import interpreter.exceptions.*;
-
 import java.util.HashMap;
 
 public class IfExpression extends Expression {
