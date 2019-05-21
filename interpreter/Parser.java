@@ -7,7 +7,7 @@ import interpreter.expression.*;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-public class Parser {
+class Parser {
     private String line;
     private int lineNumber = 0;
     private int index;
@@ -120,7 +120,7 @@ public class Parser {
         }
     }
 
-    public Function parseFunction(String line) {
+    Function parseFunction(String line) {
         this.line = line;
         lineNumber++;
         index = 0;
@@ -143,7 +143,7 @@ public class Parser {
         return new Function(name, argumentList, expression);
     }
 
-    public Expression parseExpression(String line) {
+    Expression parseExpression(String line) {
         this.line = line;
         lineNumber++;
         index = 0;
